@@ -55,7 +55,7 @@ module.exports = {
 	},
 	plugins: [
 		new html_plugin({
-			inject: 'body',
+			inject: true,
 			template: './public/index.html',
 			filename: './index.html'
 		}),
